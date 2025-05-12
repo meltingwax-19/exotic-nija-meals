@@ -13,6 +13,7 @@ img {
   display: block;
 }
 
+/* Base styles - mobile first */
 body {
   font-family: 'Playfair display', 'Raleway', sans-serif;
   font-size: 1.4rem;
@@ -21,6 +22,7 @@ body {
   margin: 0;
 }
 
+/* Base styles - mobile first */
 .wrapper {
   inline-size: 80%;
   max-inline-size: 1100px;
@@ -28,25 +30,31 @@ body {
   margin-inline: auto;
 }
 
+/* Base styles - mobile first */
 header {
   /* border: 3px solid orange; */
-  font-size: 1.6875rem;
+  font-size: 1.875rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-image: url(../images/header-photo.webp);
   background-position: center;
   background-size: cover;
-  padding-block: 2.5em;
-  padding-inline: 2.5em;
+  padding-inline: 1.875em;
   margin-block: 0;
   color: #fff;
 
+  /* Tablet (600px and up) */
   @media (width > 600px) {
-    padding-block: 0;
+    font-size: 2.09375rem;
   }
 
-  @media (width > 600px) {
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    padding-block: 1.25em;
+  }
+
+  @media (width > 900px) {
     .large-screen {
       /* border: 1px solid pink; */
       display: flex;
@@ -56,6 +64,7 @@ header {
   }
 }
 
+/* Base styles - mobile first */
 h1,
 h2,
 h3,
@@ -63,23 +72,32 @@ h4 {
   margin-block-start: 0;
 }
 
+/* Base styles - mobile first */
 h1 {
   /* border: 2px solid gold; */
   margin-block-end: 0.625em;
 
+  /* Tablet (600px and up) */
   @media (width > 600px) {
+    font-size: 5rem;
+  }
+
+  /* Small laptops/tablets landscape (900px and up) */
+  @media (width > 900px) {
     font-size: 6rem;
   }
 }
 
+/* Base styles - mobile first */
 span {
   color: #c67b46;
 }
 
+/* Base styles - mobile first */
 .primary-nav ul,
 .secondary-nav ul {
   /* border: 2px solid red; */
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   font-weight: 600;
   display: flex;
   flex-direction: column;
@@ -89,26 +107,41 @@ span {
   padding-inline: 0.625em;
   margin-block-end: 1.344em;
 
+  /* Tablet (600px and up) */
   @media (width > 600px) {
+    font-size: 1.5rem;
+  }
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.1rem;
     margin-block-start: 3.75em;
-    margin-inline-start: 18.75em;
   }
 }
 
+/* Small laptops/tablets landscape (900px and up)*/
+@media (width > 900px) {
+  .primary-nav ul {
+    margin-inline-start: 15.625em;
+  }
+}
+
+/* Base styles - mobile first */
 .primary-nav a,
 .secondary-nav a {
   /* border: 2px solid purple; */
   text-decoration: none;
   color: #fff;
 
-  @media (width > 600px) {
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
     margin-inline-start: 3.125em;
   }
 }
 
+/* Base styles - mobile first */
 .primary-nav a:hover,
 .primary-nav a:focus-visible,
 .secondary-nav a:hover,
@@ -116,35 +149,52 @@ span {
   color: #00f;
 }
 
+/* Base styles - mobile first */
 .secondary-nav {
   background: #85bfe3;
   border: 5px solid #c67b46;
 }
 
+/* Base styles - mobile first */
 .section-text {
   /* border: 2px solid orangered; */
   font-family: 'Raleway', sans-serif;
   padding-block: 0.625em;
   padding-inline: 1.25em;
   margin-block-start: 0;
+
+  /* Tablet (600px and up) */
+  @media (width > 600px) {
+    font-size: 1.625rem;
+  }
 }
 
+/* Base styles - mobile first */
 .page-title {
-  color: #c67b46;
+  /* border: 2px solid magenta; */
   text-align: center;
+  color: #c67b46;
   margin-block-start: 1.25em;
 
+  /* Tablet (600px and up) */
   @media (width > 600px) {
+    font-size: 2.125rem;
+  }
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
     font-size: 2.5rem;
   }
 }
 
+/* Base styles - mobile first */
 footer {
   /* border: 2px solid magenta; */
   margin-block-start: 6.25em;
   color: blue;
 }
 
+/* Base styles - mobile first */
 footer ul {
   /* border: 2px solid red; */
   display: flex;
@@ -152,15 +202,27 @@ footer ul {
   text-align: center;
 }
 
+/* Base styles - mobile first */
 footer li {
   /* border: 2px solid red; */
   padding-block: 0;
 }
 
+/* Base styles - mobile first */
 .copyright-text {
+  /* border: 1px solid red; */
   color: #000;
 
-  @media (width > 600px) {
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
     margin-inline-end: 3.125em;
+  }
+}
+
+
+/* Small laptops/tablets landscape (900px and up)*/
+@media (width > 900px) {
+  .section-text {
+    text-align: left;
   }
 }

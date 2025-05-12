@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  /* border: 3px solid orange; */
+  border: 3px solid orange;
   font-size: 1.6875rem;
   display: flex;
   flex-direction: column;
@@ -43,18 +43,18 @@ header {
   margin-block: 0;
   color: #fff;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     padding-block: 1.25em;
-  }
+  } */
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     .large-screen {
-      /* border: 1px solid pink; */
+      border: 1px solid pink;
       display: flex;
       gap: 0.625em;
       justify-content: space-between;
     }
-  }
+  } */
 }
 
 h1,
@@ -65,13 +65,13 @@ h4 {
 }
 
 h1 {
-  /* border: 2px solid gold; */
+  border: 2px solid gold;
   margin-block-end: 0.625em;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 6rem;
-    /* margin-block-end: 7.5em; */
-  }
+  } */
+
 }
 
 span {
@@ -79,20 +79,19 @@ span {
 }
 
 .page-title {
-  /* border: 2px solid magenta; */
+  border: 2px solid magenta;
   text-align: center;
   color: #c67b46;
   margin-block-start: 1.25em;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 2.5rem;
-    /* margin-block: 1.25em; */
-  }
+  } */
 }
 
 .primary-nav ul,
 .secondary-nav ul {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   font-size: 1.1rem;
   font-weight: 600;
   display: flex;
@@ -103,24 +102,24 @@ span {
   padding-inline: 0.625em;
   margin-block-end: 1.344em;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.1rem;
     margin-block-start: 3.75em;
-  }
+  } */
 }
 
 
 .primary-nav a,
 .secondary-nav a {
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
   text-decoration: none;
   color: #fff;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     margin-inline-start: 3.125em;
-  }
+  } */
 }
 
 .primary-nav a:hover,
@@ -136,26 +135,26 @@ span {
 }
 
 .jump-link ul {
-  /* border: 2px solid orange; */
+  border: 2px solid orange;
   text-align: center;
   font-size: 1.1rem;
   font-weight: 900;
   list-style: none;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     margin-block-start: 5.5em;
     font-size: 0.9375rem;
-  }
+  } */
 }
 
 .jump-link a {
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
   text-decoration: none;
   color: #c67b46;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     margin-inline-end: 3.125em;
-  }
+  } */
 }
 
 .jump-link a:hover,
@@ -164,28 +163,28 @@ span {
 }
 
 .scroll-nav ul {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   font-size: 1.1rem;
   list-style: none;
   text-align: center;
   font-weight: 600;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     display: flex;
     justify-content: space-between;
     margin-block-start: 4.3125em;
     font-size: 1.1rem;
-  }
+  } */
 }
 
 .scroll-nav a {
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
   text-decoration: none;
   color: #f00;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     margin-inline-start: 3.125em;
-  }
+  } */
 }
 
 .scroll-nav a:hover,
@@ -194,18 +193,18 @@ span {
 }
 
 .section-title {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   margin-block-end: 0;
 }
 
 .section-text {
-  /* border: 2px solid orange; */
+  border: 2px solid orange;
   margin-block-start: 0;
 }
 
 .section-title,
 .section-text {
-  /* border: 2px solid orangered; */
+  border: 2px solid orangered;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   padding-block: 0.625em;
@@ -215,14 +214,14 @@ span {
 section ul {
   list-style-position: inside;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     list-style-position: outside;
-  }
+  } */
 }
 
 .ingredients-list,
 .instructions-list {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   color: #c67b46;
   text-align: center;
 }
@@ -249,18 +248,18 @@ figure a img:hover {
 }
 
 aside {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-size: 1.075rem;
   text-align: center;
   background: #fff;
   padding-block: 1.875em;
   padding-inline: 1.875em;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.25rem;
     margin-block-start: 1.125em;
     margin-block-end: 0.9375em;
-  }
+  } */
 }
 
 aside ol ::marker,
@@ -274,39 +273,39 @@ aside ul ::marker {
 
 
 footer {
-  /* border: 2px solid magenta; */
+  border: 2px solid magenta;
   margin-block-start: 6.25em;
   color: blue;
 }
 
 footer ul {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
 footer li {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   padding-block: 0;
 }
 
 .copyright-text {
   color: #000;
 
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     margin-inline-end: 3.125em;
-  }
+  } */
 }
 
 @media (width > 600px) {
-  .two-col-layout {
-    /* border: 2px solid aqua; */
+  /* .two-col-layout {
+    border: 2px solid aqua;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6.25em;
     margin-block-start: 3.125em;
-  }
+  } */
 }
 
 .col {
@@ -315,7 +314,7 @@ footer li {
 }
 
 @media (width > 600px) {
-  .section-text {
+  /* .section-text {
     text-align: left;
-  }
+  } */
 }
