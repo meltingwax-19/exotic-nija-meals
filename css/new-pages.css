@@ -46,9 +46,9 @@ header {
   color: #fff;
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 2.09375rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
@@ -81,9 +81,9 @@ h1 {
   margin-block-end: 0.625em;
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 5rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up) */
   /* @media (width > 900px) {
@@ -106,9 +106,9 @@ span {
   margin-block-start: 1.25em;
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 2.125rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
@@ -132,9 +132,9 @@ span {
   margin-block-end: 1.344em;
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.5rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
@@ -149,7 +149,7 @@ span {
 /* Base styles - mobile first */
 .primary-nav a,
 .secondary-nav a {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   text-decoration: none;
   color: #fff;
 
@@ -183,9 +183,9 @@ span {
   list-style: none;
 
   /* Tablet (600px and up)*/
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.375rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
@@ -240,9 +240,9 @@ span {
   color: #f00;
 
   /* Tablet (600px and up)*/
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.1875rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
@@ -265,9 +265,9 @@ span {
 
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.625rem;
-  }
+  } */
 }
 
 /* Base styles - mobile first */
@@ -278,9 +278,9 @@ span {
 
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.625rem;
-  }
+  } */
 }
 
 .section-title,
@@ -296,9 +296,9 @@ section ul {
   list-style-position: inside;
 
   /* Tablet (600px and up) */
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     list-style-position: outside;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
@@ -340,9 +340,9 @@ figure a img:hover {
   font-style: italic;
 
   /* Tablet (600px and up)*/
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.375rem;
-  }
+  } */
 
 }
 
@@ -364,9 +364,9 @@ aside {
   padding-inline: 1.875em;
 
   /* Tablet (600px and up)*/
-  @media (width > 600px) {
+  /* @media (width > 600px) {
     font-size: 1.375rem;
-  }
+  } */
 
   /* Small laptops/tablets landscape (900px and up)*/
   /* @media (width > 900px) {
