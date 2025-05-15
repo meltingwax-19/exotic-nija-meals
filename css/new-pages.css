@@ -45,24 +45,24 @@ header {
   margin-block: 0;
   color: #fff;
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 2.09375rem;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     padding-block: 1.25em;
-  } */
+  }
 
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     .large-screen {
-      border: 1px solid pink;
+      /* border: 1px solid pink; */
       display: flex;
       gap: 0.625em;
       justify-content: space-between;
     }
-  } */
+  }
 }
 
 
@@ -80,15 +80,15 @@ h1 {
   /* border: 2px solid gold; */
   margin-block-end: 0.625em;
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 5rem;
   }
 
   /* Small laptops/tablets landscape (900px and up) */
-  /* @media (width > 900px) {
-    font-size: 6rem;
-  } */
+  @media (width > 900px) {
+    font-size: 5.5rem;
+  }
 }
 
 
@@ -105,15 +105,15 @@ span {
   color: #c67b46;
   margin-block-start: 1.25em;
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 2.125rem;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     font-size: 2.5rem;
-  } */
+  }
 }
 
 
@@ -131,18 +131,18 @@ span {
   padding-inline: 0.625em;
   margin-block-end: 1.344em;
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.375rem;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.1rem;
     margin-block-start: 3.75em;
-  } */
+  }
 }
 
 
@@ -154,9 +154,9 @@ span {
   color: #fff;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     margin-inline-start: 3.125em;
-  } */
+  }
 }
 
 
@@ -182,16 +182,16 @@ span {
   font-weight: 900;
   list-style: none;
 
-  /* Tablet (600px and up)*/
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.25rem;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     margin-block-start: 5.5em;
     font-size: 0.9375rem;
-  } */
+  }
 }
 
 
@@ -202,9 +202,9 @@ span {
   color: #c67b46;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     margin-inline-end: 3.125em;
-  } */
+  }
 }
 
 
@@ -224,12 +224,12 @@ span {
   font-weight: 600;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     display: flex;
     justify-content: space-between;
     margin-block-start: 4.3125em;
     font-size: 1.1rem;
-  } */
+  }
 }
 
 
@@ -239,15 +239,15 @@ span {
   text-decoration: none;
   color: #f00;
 
-  /* Tablet (600px and up)*/
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.2rem;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     margin-inline-start: 3.125em;
-  } */
+  }
 }
 
 
@@ -264,9 +264,14 @@ span {
   margin-block-end: 0;
 
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.5625rem;
+  }
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    font-size: 1.6875rem;
   }
 }
 
@@ -277,9 +282,14 @@ span {
   font-size: 1.1875rem;
 
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.4375rem;
+  }
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    font-size: 1.53125rem;
   }
 }
 
@@ -295,15 +305,15 @@ span {
 section ul {
   list-style-position: inside;
 
-  /* Tablet (600px and up) */
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     list-style-position: outside;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     list-style-position: outside;
-  } */
+  }
 }
 
 
@@ -313,6 +323,11 @@ section ul {
   /* border: 2px solid red; */
   color: #c67b46;
   text-align: center;
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    font-size: 1.5625rem;
+  }
 }
 
 /* Base styles - mobile first */
@@ -340,21 +355,31 @@ figure a img:hover {
   font-size: 1.1rem;
   font-style: italic;
 
-  /* Tablet (600px and up)*/
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.25rem;
+  }
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    font-size: 1.375rem;
   }
 
 }
 
 
-/* Base styles - mobile first */
+/* Mobile phones/tablets portrait (600px and up)*/
 .line1,
 .line2,
 .line3,
 .line4 {
   display: block;
   color: #000;
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    display: inline;
+  }
 }
 
 
@@ -366,26 +391,32 @@ aside {
   padding-block: 1.875em;
   padding-inline: 1.875em;
 
-  /* Tablet (600px and up)*/
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.3125rem;
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
-    font-size: 1.25rem;
+  @media (width > 900px) {
+    font-size: 1.375rem;
     margin-block-start: 1.125em;
     margin-block-end: 0.9375em;
-  } */
+  }
 }
 
 .aside-title {
 
-  /* Tablet (600px and up)*/
+  /* Mobile phones/tablets portrait (600px and up)*/
   @media (width > 600px) {
     font-size: 1.4375rem;
   }
+
+  /* Small laptops/tablets landscape (900px and up)*/
+  @media (width > 900px) {
+    font-size: 1.5rem;
+  }
 }
+
 
 
 /* Base styles - mobile first */
@@ -437,9 +468,9 @@ footer li {
   color: #000;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  /* @media (width > 900px) {
+  @media (width > 900px) {
     margin-inline-end: 3.125em;
-  } */
+  }
 }
 
 
