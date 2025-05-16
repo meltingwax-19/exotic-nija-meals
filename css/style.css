@@ -60,6 +60,9 @@ header {
       display: flex;
       gap: 0.625em;
       justify-content: space-between;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }
