@@ -51,11 +51,11 @@ header {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     padding-block: 1.25em;
   }
 
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     .large-screen {
       /* border: 1px solid pink; */
       display: flex;
@@ -88,7 +88,7 @@ h1 {
   }
 
   /* Small laptops/tablets landscape (900px and up) */
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 5.5rem;
   }
 }
@@ -113,7 +113,7 @@ span {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 2.5rem;
   }
 }
@@ -139,7 +139,7 @@ span {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.1rem;
@@ -156,7 +156,7 @@ span {
   color: #fff;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     margin-inline-start: 3.125em;
   }
 }
@@ -190,7 +190,7 @@ span {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     margin-block-start: 5.5em;
     font-size: 0.9375rem;
   }
@@ -204,7 +204,7 @@ span {
   color: #c67b46;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     margin-inline-end: 3.125em;
   }
 }
@@ -226,7 +226,7 @@ span {
   font-weight: 600;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     display: flex;
     justify-content: space-between;
     margin-block-start: 4.3125em;
@@ -247,7 +247,7 @@ span {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.1rem;
     margin-inline-start: 3.125em;
   }
@@ -273,7 +273,7 @@ span {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.6875rem;
   }
 }
@@ -291,7 +291,7 @@ span {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.53125rem;
   }
 }
@@ -314,7 +314,7 @@ section ul {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     list-style-position: outside;
   }
 }
@@ -328,7 +328,7 @@ section ul {
   text-align: center;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.5625rem;
   }
 }
@@ -364,7 +364,7 @@ figure a img:hover {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.375rem;
   }
 
@@ -380,7 +380,7 @@ figure a img:hover {
   color: #000;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     display: inline;
   }
 }
@@ -400,7 +400,7 @@ aside {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.375rem;
     margin-block-start: 1.125em;
     margin-block-end: 0.9375em;
@@ -415,7 +415,7 @@ aside {
   }
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     font-size: 1.5rem;
   }
 }
@@ -471,14 +471,14 @@ footer li {
   color: #000;
 
   /* Small laptops/tablets landscape (900px and up)*/
-  @media (width > 1253px) {
+  @media (width > 1280px) {
     margin-inline-end: 3.125em;
   }
 }
 
 
 /* Small laptops/tablets landscape (900px and up)*/
-/* @media (width > 1253px) {
+/* @media (width > 1280px) {
   .two-col-layout {
     border: 2px solid aqua;
     display: grid;
@@ -495,14 +495,14 @@ footer li {
 } */
 
 /* Small laptops/tablets landscape (900px and up)*/
-/* @media (width > 1253px) {
+/* @media (width > 1280px) {
   .section-text {
     text-align: left;
   }
 } */
 
 /* Small laptops/tablets landscape (900px and up)*/
-/* @media (width > 1253px){
+/* @media (width > 1280px){
 
 
 } */
