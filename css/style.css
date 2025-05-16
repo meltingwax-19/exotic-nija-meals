@@ -144,7 +144,8 @@ span {
   .primary-nav ul {
     /* border: 2px solid red; */
     /* margin-inline-start: 15.625em; */
-    margin-inline-start: 17em;
+    /* margin-inline-start: 17em; */
+    margin-inline-start: 4em;
   }
 }
 

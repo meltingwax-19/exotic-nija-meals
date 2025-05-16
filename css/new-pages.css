@@ -61,8 +61,6 @@ header {
       display: flex;
       gap: 0.625em;
       justify-content: space-between;
-      /* margin-inline-end: 0; */
-      /* margin-inline-start: 0; */
     }
   }
 }
