@@ -150,12 +150,12 @@ span {
   .jump-link ul,
   .scroll-nav ul {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0.5em;
     text-align: center;
     min-width: 190px;
-    /* word-break: break-word; */
-    /* line-height: 1.4; */
+    word-break: break-word;
+    line-height: 1.4;
   }
 }
 
