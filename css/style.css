@@ -146,7 +146,7 @@ span {
 @media (width > 900px) {
   .primary-nav ul {
     /* border: 2px solid red; */
-    margin-inline-start: 4em;
+    margin-inline-start: 5em;
     /* flex-wrap: wrap; */
     justify-content: space-between;
     /* gap: 0.5em;  */
