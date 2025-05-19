@@ -146,9 +146,14 @@ span {
 @media (width > 900px) {
   .primary-nav ul {
     /* border: 2px solid red; */
-    /* margin-inline-start: 15.625em; */
-    /* margin-inline-start: 17em; */
     margin-inline-start: 4em;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* gap: 0.5em;  */
+    text-align: center;
+    min-width: 190px;
+    /* word-break: break-word; */
+    /* line-height: 1.4; */
   }
 }
 

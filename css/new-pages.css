@@ -59,11 +59,6 @@ header {
     .large-screen {
       /* border: 1px solid pink; */
       display: flex;
-      gap: 0.625em;
-      justify-content: space-between;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
     }
   }
 }
@@ -145,6 +140,22 @@ span {
     justify-content: space-between;
     font-size: 1.1rem;
     margin-block-start: 3.75em;
+  }
+}
+
+/* Small laptops/tablets landscape (900px and up)*/
+@media (width > 900px) {
+
+  .primary-nav ul,
+  .jump-link ul,
+  .scroll-nav ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+    text-align: center;
+    min-width: 190px;
+    /* word-break: break-word; */
+    /* line-height: 1.4; */
   }
 }
 
