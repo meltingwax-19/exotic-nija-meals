@@ -157,6 +157,14 @@ span {
   }
 }
 
+
+/*Big laptops/Desktops (1200px and up)*/
+@media (width > 1200px) {
+  .primary-nav ul {
+    margin-inline-start: 13em;
+  }
+}
+
 /* Base styles - mobile first */
 .primary-nav a,
 .secondary-nav a {
